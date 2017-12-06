@@ -1,0 +1,197 @@
+html, body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+body {
+	background-image: url('https://pp.userapi.com/c834202/v834202456/3184/o8s7T_bZ8ME.jpg');
+	background-position: center top;
+	background-size: cover;
+	margin: 0;
+}
+
+.h0 {
+	margin-bottom: 15px; 
+}
+
+nav li{
+	margin-right: 30px ;
+	padding: 0 10px;
+	
+}
+/*nav ul .menu-item{
+	display: inline-block;
+	margin: auto;
+	
+}
+nav a{
+	color: ghostwhite;
+	font-family: "Oswald",serif;
+	font-size: 30px;
+}*/
+
+.page-title {
+  	text-align: center;	
+	font-family: 'Oswald', serif;
+	font-size: 6vw;
+	color:ghostwhite;
+}
+
+.title_of_posts{
+	text-align: center;
+	font-family: 'Oswald', serif;
+	font-size: 5vw;
+	color:ghostwhite;
+}
+
+.page-description{
+	color: ghostwhite;
+	font-family: 'Oswald', serif;
+	font-size: 3.34vw;
+	text-align: center;
+	position: inherit;
+}
+
+/*для слайдов */
+.material {
+  	position: relative;
+  	list-style: none;
+  	overflow: hidden;
+  	width: 80%;
+  	padding: 0;
+  	margin: 0 auto;
+	border: 6px solid #FFF;
+  }
+
+.material li {
+  	-webkit-backface-visibility: hidden;
+  	position: absolute;
+  	display: none;
+  	width: 100%;
+  	left: 0;
+  	top: 0;
+  }
+
+.material li:first-child {
+  	position: relative;
+  	display: block;
+  	float: left;
+  }
+
+.material img {
+  	display: block;
+  	height: auto;
+  	float: left;
+  	width: 100%;
+  }
+
+.description {
+    position: absolute;
+    display: block;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    text-align: center;
+    background: #000;
+    background: rgba(0,0,0, .8);
+    color: ghostwhite;
+	font-family: 'Oswald', serif;
+	font-size: 2vw;
+}
+/*с кем работали */
+
+/*@media screen and (max-width:600px){
+	.grid{
+		grid-template-areas: 
+					"first"
+					"second"
+					"third"
+					"fourth";
+	}
+}*/
+.work_with .logo img{
+    border-radius: 2px 2px 0 0;
+    width: 20%;	
+}
+.logo img {
+	justify-content: center;
+}
+/*.first{
+	
+	height: 100px;
+	grid-area:first;
+}
+.second{
+	
+	height:100px;
+	grid-area:second;
+}
+.third{
+	
+	height: 100px;
+	grid-area:third;
+}
+.fourth{
+	
+	height: 100px;
+	grid-area:fourth;
+}*/
+.work_descrip{
+	color: ghostwhite;
+	font-family: 'Oswald', serif;
+	font-size: 2vw;
+	margin: auto 0;
+	text-align: center;
+}
+.container{
+	margin-bottom: 10px;
+}
+.row{
+	justify-content: center;
+}
+
+
+.center-align{
+	text-align: center;
+	display: inline-grid;
+}
+
+/*для обратной свзяи*/
+/* form styles */
+
+input[type="text"] {
+	display: block;
+   	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0;
+    outline: none;
+    height: 0.5vw;
+    width: 100%;
+    font-size: 2vw;
+    margin: 0 0 5px 0;
+    padding: 2.2vw;
+	font-weight: bold;
+}
+
+
+button.submit {
+	position: relative;
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	color: white;
+	font-weight: bold;
+	padding: 5px 40px;
+	margin: 0 auto;
+}
+
+.container_button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
